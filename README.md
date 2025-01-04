@@ -83,8 +83,8 @@ Ensure you have Python installed on your system.
 
 ## Example Output 🖨️
 
-![Wordle Game Screenshot](Pictures/Output1.pmg "Wordle Game in Action")
-![Wordle Game Screenshot](Pictures/Output2.pmg "Wordle Game in Action")
+![Wordle Game Screenshot](Pictures/Output1.png "Wordle Game in Action")
+![Wordle Game Screenshot](Pictures/Output2.png "Wordle Game in Action")
 
 
 
