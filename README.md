@@ -84,14 +84,33 @@ Ensure you have Python installed on your system.
 ## Example Output 🖨️
 
 ```
-Welcome to Wordle!
-Guess the 5-letter word in 6 attempts.
+wordle_lab/main.py
+========== Welcome to Wordle ==========
+Rules:
+- Guess the 5-letter word within 6 attempts.
+- Feedback will indicate if letters are correct:
+  GREEN: Correct letter in the correct position.
+  YELLOW: Correct letter in the wrong position.
+  RED: Incorrect letter.
 
-Attempt 1:
-Enter your guess: hello
-Feedback: [GREEN, RED, YELLOW, RED, RED]
-...
-Congratulations! You guessed the word in 4 attempts.
+========== Game Start ==========
+You have 6 attempts to guess the word. Good luck!
+Give me a guess: bhwsjqwsqs
+The word must be 5 lowercase letters.
+Give me a guess: Sghuhq
+The word must be 5 lowercase letters.
+Give me a guess: alone
+a l o n e
+Give me a guess: elgal
+The word is not in the valid word list.
+Give me a guess: black
+b l a c k
+Give me a guess: elfin
+e l f i n
+Give me a guess: elegy
+e l e g y
+Give me a guess: elder
+========== You Win! ==========
 ```
 
 ---
