@@ -5,9 +5,9 @@ This repository contains a Python implementation of the Wordle game. It is a sim
 ## About the Game 🌟
 
 In Wordle, players have six attempts to guess a five-letter word. After each guess, feedback is provided in the form of colored tiles:
-- **🟩 GREEN**: The letter is correct and in the correct position.
-- **🟨 YELLOW**: The letter is correct but in the wrong position.
-- **🟥 RED**: The letter is incorrect.
+- **🟩 `\033[32mGREEN\033[0m`**: The letter is correct and in the correct position.
+- **🟨 `\033[33mYELLOW\033[0m`**: The letter is correct but in the wrong position.
+- **🟥 `\033[31mRED\033[0m`**: The letter is incorrect.
 
 The objective is to guess the word correctly within six attempts.
 
@@ -66,65 +66,3 @@ Ensure you have Python installed on your system.
    ```bash
    git clone https://github.com/calleann/wordle_lab.git
    cd wordle_lab
-   ```
-
-2. Run the game:
-   ```bash
-   python main.py
-   ```
-
-### Playing the Game 🎲
-1. Follow the on-screen instructions to guess a word.
-2. Enter valid 5-letter words.
-3. Use the feedback to refine your guesses.
-4. Win the game by guessing the word within six attempts! 🏆
-
----
-
-## Example Output 🖨️
-
-```
-wordle_lab/main.py
-========== Welcome to Wordle ==========
-Rules:
-- Guess the 5-letter word within 6 attempts.
-- Feedback will indicate if letters are correct:
-  GREEN: Correct letter in the correct position.
-  YELLOW: Correct letter in the wrong position.
-  RED: Incorrect letter.
-
-========== Game Start ==========
-You have 6 attempts to guess the word. Good luck!
-Give me a guess: bhwsjqwsqs
-The word must be 5 lowercase letters.
-Give me a guess: Sghuhq
-The word must be 5 lowercase letters.
-Give me a guess: alone
-a l o n e
-Give me a guess: elgal
-The word is not in the valid word list.
-Give me a guess: black
-b l a c k
-Give me a guess: elfin
-e l f i n
-Give me a guess: elegy
-e l e g y
-Give me a guess: elder
-========== You Win! ==========
-```
-
----
-
-## Contributing 🤝
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
----
-
-## License 📜
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
-## Acknowledgements 🙌
-This implementation is based on the original Wordle game created by Josh Wardle. Special thanks to ENSAT for providing the opportunity to develop this project.
-
