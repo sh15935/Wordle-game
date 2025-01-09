@@ -65,7 +65,7 @@ Ensure you have Python installed on your system.
 1. Clone the repository:
    ```bash
    git clone https://github.com/sh15935/Wordle-game
-   cd wordle_lab
+   cd Wordle-game
    ```
 
 2. Run the game:
