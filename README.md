@@ -64,7 +64,7 @@ Ensure you have Python installed on your system.
 ### Steps 🚀
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sh15935/wordle_lab.git
+   git clone https://github.com/sh15935/Wordle-game
    cd wordle_lab
    ```
 
